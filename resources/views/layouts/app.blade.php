@@ -30,6 +30,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('employees.index') }}">Employees</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('products.index') }}">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('customer.cart.index') }}">My Cart</a>
+                        </li>
                     @endauth
                 </ul>
                 <ul class="navbar-nav ms-auto">
